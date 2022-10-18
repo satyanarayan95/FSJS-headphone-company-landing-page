@@ -8,7 +8,7 @@
 
 ![name](https://img.shields.io/badge/Satya--Narayan--Patra-Software--Developer-green)
 
-## Project 7 [Live Link]()
+## Project 7 [Live Link](https://headphone-website-landingpage.netlify.app/)
 
 -   Skills Gained in this project
     -   Learned positioning elements
@@ -22,4 +22,4 @@
 
 #### Screenshot
 
-![Desktop](./screnshots/Screenshot.jpg)
+![Desktop](./7.png)
