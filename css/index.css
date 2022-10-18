@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    width: 100vw;
+    height: 100vh;
+    padding: 3.5rem 0 3.5rem 3.5rem;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-items {
+    display: flex;
+    width: 40vw;
+    justify-content: space-evenly;
+  }
+  nav img:first-child {
+    width: 7rem;
+  }
+  nav img:last-child{
+    width: 18rem;
+  }
+  .nav-items .active-item {
+    color: #FE5E35;
+    font-weight: 900;
+    font-size: medium;
+  }
+  .nav-items {
+    color: dimgrey;
+  }
+  .intro-section{
+    display: flex;
+  }
+  .left-section{
+    width: 54%;
+  }
+  .left-section h3 {
+    margin-top: 3vw;
+    margin-bottom: 0.8rem;
+    font-size: 1.75rem;
+    font-family: sans-serif;
+    font-weight: 400;
+  }
+  .left-section h1 {
+    font-family: 'Fredoka One';
+    font-size: 4rem;
+  }
+  .sub-headlines{
+    position: relative;
+    left: 4rem;
+    margin: 8vh 0;
+  }
+  .sub-headline img {
+    width: 16px;
+    height: 16px;
+    background:#FE5E35;
+    padding: 6px;
+    border-radius: 50%;
+    margin-right: 1rem;
+  }
+  .sub-headline {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 1rem;
+    color: rgba(1, 0, 3, 0.75);
+    margin: 1rem 0;
+  }
+  p.text {
+    color:dimgray;
+    font-size: small;
+    font-weight: 500;
+    margin-bottom: 8vh;
+    max-width: 40vw;
+  }
+  .action-btn {
+    background: #FE5E35;
+    color: azure;
+    padding: 1rem 1.5rem;
+    border-radius: 2rem;
+    border: none;
+    font-size: medium;
+    margin-right: 2rem;
+  }
+  .headphone-div img:first-child {
+    position: absolute;
+    z-index: 100;
+    top: 52vh;
+    left: 56.5vw;
+    width: 10rem;
+  }
+  .discount-content{
+    position: absolute;
+    top:58vh;
+    left: 58vw;
+    z-index: 200;
+    font-family: 'Fredoka One';
+  }
+  .discount-content h1{
+    color: #ffffff;
+    font-size: 3.5rem;
+  }
+  .discount-content h4{
+    color: #ffffff;
+    font-size: 12px;
+    padding-left: 2rem;
+  }
+  .headphone-div img:last-child {
+    position: relative;
+    width: 30rem;
+    left: 4rem;
+  }
+  .dots{
+    display: flex;
+  }
+  .dot {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-left: 1.5rem;
+    position: relative;
+    left: 15vw;
+  }
+  .dot:nth-last-child(2) {
+    background: #FE5E35;
+  }
+  .dot:first-child {
+    background: yellow;
+  }
+  .dot:last-child {
+    background: black;
+  }
+  .right-section button {
+    position: relative;
+    top: 5vh;
+    left:16vw
+  }
